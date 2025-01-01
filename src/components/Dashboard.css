@@ -1,0 +1,57 @@
+/* Dashboard.css */
+.dashboard-container {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .card .btn {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .card .btn:hover {
+    opacity: 0.9;
+  }
+
+  h2 {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  h3 {
+    font-weight: 500;
+    color: #16a085;
+  }
+
+  input.form-control {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .text-muted {
+    font-size: 18px;
+  }
+
+  .text-primary {
+    color: #16a085 !important;
+  }
+
+  .btn-block {
+    width: 100%;
+  }
