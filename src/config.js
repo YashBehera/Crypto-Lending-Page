@@ -125,4 +125,4 @@ export const ABI = [
     }
   ];
 
-  export const CONTRACT_ADDRESS = "0x71ab8887c67475d0caafb107c7581e72d38aeab8"; // Replace with your contract's address
+  export const CONTRACT_ADDRESS = "0x9bE9bdEE07C397Ba3AE57f25bAce420AE773462f"; // Replace with your contract's address
